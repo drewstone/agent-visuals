@@ -9,7 +9,6 @@ publish = false
 [dependencies]
 image = { version = "0.25", default-features = false, features = ["png"] }
 rayon = "1.10"
-nnoise = "0.2"  # or simple noise; can be replaced
 
 [profile.release]
 opt-level = 3
